@@ -1,0 +1,110 @@
+ .tahoma-font {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .dealsoftheyear {
+     font-family: Arial;
+     font-weight: bold;
+     margin-bottom: 0;
+ }
+
+ .Sales {
+     font-family: Arial;
+     font-style: italic;
+     color: red;
+     margin-top: 0;
+ }
+
+ p {
+     font-family: Verdana;
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+
+ .HTML-Course {
+     font-weight: bold;
+     margin-bottom: 2px;
+ }
+
+ .beginner {
+     color: gray;
+     margin-bottom: 20px;
+ }
+
+ .course-desc {
+     width: 300px;
+     margin-bottom: 20px;
+ }
+
+ .get-started {
+     background-color: green;
+     font-family: Verdana;
+     color: white;
+     border: none;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 6px;
+     transition: opacity 0.15s;
+     margin-bottom: 50px;
+ }
+
+ .get-started:hover {
+     opacity: 0.7;
+     cursor: pointer;
+
+ }
+
+ .get-started:active {
+     opacity: 0.5;
+ }
+
+ .Shopping {
+     font-family: Arial;
+     font-size: 30px;
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 10px;
+ }
+
+ .apple-description {
+     text-align: center;
+     margin-bottom: 10px;
+ }
+
+ .learn-more {
+     text-align: center;
+     color: blue;
+     margin-bottom: 50px;
+ }
+
+ .freecodecamp {
+     font-weight: bold;
+     margin-bottom: 5px;
+     cursor: pointer;
+ }
+
+ .highlighted-fcc {
+     color: gray;
+     font-weight: normal;
+ }
+
+ .highlighted-fcc:hover {
+     cursor: pointer;
+     text-decoration: underline;
+ }
+
+ .fcc-description {
+     width: 600px;
+     margin-bottom: 20px;
+ }
+
+ .hashtag {
+     color: blue;
+ }
+
+ .hashtag:hover {
+     cursor: pointer;
+     text-decoration: underline;
+ }

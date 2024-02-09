@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel = "stylesheet" href = "youtube-styles/video.css">
+    <link rel = "stylesheet" href = "youtube-styles/header.css">
+    <link rel= "stylesheet" href = "youtube-styles/general.css">
+    <link rel="stylesheet" href="youtube-styles/sidebar.css">
+
+
+</head>
+
+<body style="padding-bottom:  3000px;">
+    <header class = "header">
+        <div class = "left-section">
+            <img class = "hamburger-menu" src = "Icons/hamburger-menu.svg">
+
+            <img class = "youtube-logo" src = "Icons/youtube-logo.svg">
+        </div>
+        <div class = "middle-section">
+            <input class = "search-bar" type="text" placeholder="Search">
+            <button class = "search-button">
+                <img class = "search-icon" src = "Icons/search.svg">
+                <div class = "tooltip"> Search </div>
+            </button>
+            <button class = "voice-search-button">
+                <img class = "voice-search-icon" src = "Icons/voice-search-icon.svg">
+                <div class = "tooltip"> Search with your voice </div>
+            </button>
+        </div>
+        <div class = "right-section">
+            <div class = "upload-icon-container">
+                <img class = "upload-icon" src="Icons/upload.svg">
+                <div class = "tooltip"> Create </div>
+            </div>
+            <div class = "youtube-apps-icon-container">
+                <img class = "youtube-apps-icon" src="Icons/youtube-apps.svg">
+                <div class = "tooltip"> YouTube apps </div>
+            </div>
+            <div class = "notification-icon-container">
+                <img class="notification-icon" src="Icons/notifications.svg">
+                <div class = "notification-count"> 3 </div>
+                <div class = "tooltip"> Notifications </div>
+            </div>
+            <img class = "mychannel-icon"src = "channels-image/Florence.jpg">
+        </div>
+    </header>
+
+    <nav class = "sidebar">
+        <div class = "sidebar-link">
+            <img src = "Icons/home.svg">
+            <div> Home </div>
+        </div>
+        <div class = "sidebar-link">
+            <img src="Icons/explore.svg">
+            <div> explore </div>
+        </div>
+        <div class = "sidebar-link">
+            <img src="Icons/subscriptions.svg">
+            <div> Subscriptions </div>
+        </div>
+        <div class = "sidebar-link">
+            <img src="Icons/originals.svg">
+            <div> Originals </div>
+        </div>
+        <div class = "sidebar-link">
+            <img src="Icons/youtube-music.svg">
+            <div> YouTube Music </div>
+        </div>
+        <div class = "sidebar-link">
+            <img src="Icons/library.svg">
+            <div> Library </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href = "https://www.youtube.com/watch?v=KnmiXJAGxlI&ab_channel=NBA"><img class="thumbnail" src="thumbnails/hq720.webp"></a>
+                    <div class="video-time">
+                        9:46
+                    </div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channels-image/nba-channels4_profile.jpg">
+                    </div>
+        
+                    <div class="video-info">
+                        <p class="video-title">
+                            LAKERS at CLIPPERS | FULL GAME HIGHLIGHTS | January 23, 2024
+                        </p>
+        
+                        <p class="video-author">
+                            NBA
+                        </p>
+        
+                        <p class="video-stats">
+                            759k views &#183; 1 day ago
+                        </p>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/gsw-vs-atl.webp">
+                    <div class="video-time">
+                        9:46
+                    </div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channels-image/unnamed.jpg" ;>
+                    </div>
+        
+                    <div class="video-info">
+                        <p class="video-title">
+                            Golden State Warriors vs Atlanta Hawks Full Game Highlights | January 24, 2024
+                        </p>
+        
+                        <p class="video-author">
+                            FreeDawkins
+                        </p>
+        
+                        <p class="video-stats">
+                            380k views &#183; 6 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/junnieboyvlog.webp">
+                    <div class="video-time">
+                        11:50
+                    </div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channels-image/junnie.jpg">
+                    </div>
+        
+                    <div class="video-info">
+                        <p class="video-title">
+                            JANRA
+                        </p>
+        
+                        <p class="video-author">
+                            Junnie Boy
+                        </p>
+        
+                        <p class="video-stats">
+                            190k views &#183; 22 hours ago
+                        </p>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/onervlog.webp">
+                    <div class="video-time">
+                        8:20
+                    </div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channels-image/t1.jpg" ;>
+                    </div>
+        
+                    <div class="video-info">
+                        <p class="video-title">
+                            That's Just My Ninja Shadow Clone!
+                        </p>
+        
+                        <p class="video-author">
+                            T1
+                        </p>
+        
+                        <p class="video-stats">
+                            338k views &#183; 6 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/Dailydoseofinternet.webp">
+                    <div class="video-time">
+                        3:03
+                    </div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channels-image/DDOI.jpg">
+        
+                    </div>
+        
+                    <div class="video-info">
+                        <p class="video-title">
+                            Bad Graphics in Real Life
+                        </p>
+        
+                        <p class="video-author">
+                            Daily Dose Of Internet
+                        </p>
+        
+                        <p class="video-stats">
+                            2.4M views &#183; 2 days ago
+                        </p>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/paolulvid.webp">
+                    <div class="video-time">
+                        22:39
+                    </div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channels-image/Paolulpfpchannels4_profile.jpg">
+                    </div>
+        
+                    <div class="video-info">
+                        <p class="video-title">
+                            Pokemon PERO MAY BARIL | Palworld Pinoy Plays Multiplayer
+                        </p>
+        
+                        <p class="video-author">
+                            PaoLUL
+                        </p>
+        
+                        <p class="video-stats">
+                            15k views &#183; 6 hours ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
